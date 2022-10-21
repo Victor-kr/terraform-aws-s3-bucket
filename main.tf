@@ -719,3 +719,5 @@ resource "aws_s3_bucket_intelligent_tiering_configuration" "this" {
   }
 
 }
+
+resource "null_resource" "test1"{}
